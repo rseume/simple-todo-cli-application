@@ -27,7 +27,7 @@ This CLI (Command-Line Interface) application is a simple yet powerful tool to m
 1. **Clone the Repository**:  
    If you have Git installed, you can clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/todo-cli.git
+   git clone https://github.com/rseume/simple-todo-cli-application
    cd todo-cli
    ```
    Alternatively, you can download the source code as a ZIP file from the repository and extract it to a directory of your choice.
