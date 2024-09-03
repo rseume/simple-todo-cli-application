@@ -52,11 +52,11 @@ This CLI (Command-Line Interface) application is a simple yet powerful tool to m
    python todo_cli.py
    ```
 
-##Usage
+## Usage
 
 Once installed, you can start managing your todos by running the CLI commands.
 
-###Commands Overview
+### Commands Overview
 
 1. **Creating a Todo**
    ```bash
@@ -100,38 +100,40 @@ Once installed, you can start managing your todos by running the CLI commands.
    Replace <index> with the index of the todo you want to delete.
 
 8. **Saving Todos**
+   ```bash
    python todo_cli.py save-todo
+   ```
 
-9. **Creating a New Save File**
+10. **Creating a New Save File**
    ```bash
    python todo_cli.py create-save-file <filename>
    ```
    Replace <filename> with the name of the new save file.
 
-10. **Listing All Save Files**
+11. **Listing All Save Files**
     ```bash
     python todo_cli.py list-files
     ```
 
-11. **Setting an Active Save File**
+12. **Setting an Active Save File**
     ```bash
     python todo_cli.py set-active <index>
     ```
     Replace <index> with the index of the save file you want to set as active.
 
-12. **Renaming a Save File**
+13. **Renaming a Save File**
     ```bash
     python todo_cli.py rename-file <old_filename> <new_filename>
     ```
     Replace <old_filename> and <new_filename> with the old and new names of the save file.
 
-13. **Deleting a Save File**
+14. **Deleting a Save File**
     ```bash
     python todo_cli.py delete-file <filename>
     ```
     Replace <filename> with the name of the save file you want to delete.
 
-##Example Workflow
+## Example Workflow
 
 1. **Create a Todo**:
    ```bash
@@ -166,7 +168,7 @@ Once installed, you can start managing your todos by running the CLI commands.
    python todo_cli.py set-active 1
    ```
 
-##Directory Structure
+## Directory Structure
 
 The application stores all data in a hidden directory under your home directory (~/.todo_cli). The structure is as follows:
 
@@ -181,10 +183,10 @@ The application stores all data in a hidden directory under your home directory 
 - **saves/**: Contains all the save files.
 - **settings.json**: Contains the settings, including the active save file.
 
-##Contributing
+## Contributing
 
 Contributions are welcome! If you find any bugs or have feature requests, feel free to open an issue or submit a pull request.
 
-##License
+## License
 
 This project is licensed under the MIT License.
